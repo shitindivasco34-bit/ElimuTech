@@ -1,0 +1,236 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElimuTech | Technology & IT Education</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f7fb;
+            color: #243047;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #102542;
+            color: white;
+            padding: 22px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            color: #38d9c5;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #38d9c5;
+        }
+
+        .hero {
+            background: linear-gradient(120deg, #102542, #176b87);
+            color: white;
+            text-align: center;
+            padding: 85px 20px;
+        }
+
+        .hero h2 {
+            font-size: 38px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .hero a {
+            display: inline-block;
+            background: #38d9c5;
+            color: #102542;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 55px 8%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #102542;
+        }
+
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.08);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h3 {
+            color: #176b87;
+            margin-bottom: 12px;
+        }
+
+        .about {
+            background: white;
+            text-align: center;
+        }
+
+        .contact {
+            text-align: center;
+            background: #e8f3f7;
+        }
+
+        footer {
+            background: #102542;
+            color: white;
+            text-align: center;
+            padding: 22px;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                justify-content: center;
+                gap: 15px;
+            }
+
+            nav {
+                text-align: center;
+            }
+
+            .hero h2 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>ElimuTech</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#courses">Courses</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="home">
+        <h2>Welcome to ElimuTech</h2>
+
+        <p>
+            Empowering learners through Technology
+            and Information Technology Education.
+        </p>
+
+        <a href="#courses">Explore Courses</a>
+    </div>
+
+    <section class="about" id="about">
+        <h2 class="section-title">About ElimuTech</h2>
+
+        <p>
+            ElimuTech is an educational platform designed
+            to provide students and technology enthusiasts
+            with basic knowledge and skills in Information
+            Technology, computer networking and cybersecurity.
+        </p>
+    </section>
+
+    <section id="courses">
+        <h2 class="section-title">Our Learning Areas</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>💻 Computer Basics</h3>
+                <p>
+                    Learn computer fundamentals,
+                    hardware, software and operating systems.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🌐 Networking</h3>
+                <p>
+                    Understand computer networks,
+                    IP addressing, routers and network security.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>🔐 Cybersecurity</h3>
+                <p>
+                    Learn about online safety,
+                    cyber threats and information protection.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>👨‍💻 Programming</h3>
+                <p>
+                    Explore HTML, CSS, JavaScript
+                    and basic programming concepts.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Us</h2>
+
+        <p>
+            Welcome to ElimuTech.
+            Learn, explore and grow with technology.
+        </p>
+
+        <p>Email: info@elimutech.co.tz</p>
+    </section>
+
+    <footer>
+        <p>
+            &copy; 2026 ElimuTech.
+            Technology and IT Education.
+        </p>
+    </footer>
+
+</body>
+</html>
